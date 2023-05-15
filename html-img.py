@@ -1,4 +1,4 @@
-old_name = ['<div>', '<img data-u="image" src="img/1.JPG" />', '<img data-u="thumb" src="img/1.JPG" />', '</div>']
+old_name = ['<div>', '<img data-u="image" src="img/1.jpg" />', '<img data-u="thumb" src="img/1.jpg" />', '</div>']
 
 with open('name.txt', 'w') as txt_file:
     for i in range(1, 209):
