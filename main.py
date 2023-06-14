@@ -1,6 +1,6 @@
 import os
  
-path = r"C:/Users/Inform4/Documents/GB/Krylovo-slider/img//"
+path = r"C:/Users/Inform4/Documents/GB/Krylovo-slider/img/"
 f = os.listdir(path)
 n = 0
  
