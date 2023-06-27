@@ -5,7 +5,7 @@ f = os.listdir(path)
 n = 1
  
 for i in f:
-    # name = 1000 + int(i.split()[0])
+    # name = 1000 + int(i.split(".")[0])
     oldname = path + i
     newname = path + str(n) + '.jpg'
     os.rename(oldname, newname)
